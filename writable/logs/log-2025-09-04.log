@@ -1,0 +1,481 @@
+DEBUG - 2025-09-04 02:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 02:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 02:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 02:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 02:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 02:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 02:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 02:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 02:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 02:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 03:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 05:10:42 --> ErrorException: Undefined variable $db
+[Method: POST, Route: payroll/payrollperiod_view]
+in APPPATH\Controllers\Payroll.php on line 187.
+ 1 APPPATH\Controllers\Payroll.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\happyhr\\app\\Controllers\\Payroll.php', 187)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollperiod_view()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 05:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 05:12:41 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+[Method: POST, Route: payroll/payrollperiod_view]
+in APPPATH\Controllers\Payroll.php on line 192.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollperiod_view()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 05:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 05:12:52 --> ErrorException: Undefined property: stdClass::$Ecode
+[Method: POST, Route: payroll/payrollperiod_view]
+in APPPATH\Views\payroll_period_view.php on line 106.
+ 1 APPPATH\Views\payroll_period_view.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Ecode', 'C:\\xampp\\htdocs\\happyhr\\app\\Views\\payroll_period_view.php', 106)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhr\\app\\Views\\payroll_period_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_period_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_period_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhr\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(199): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollperiod_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 05:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 05:13:34 --> ErrorException: Undefined property: stdClass::$Ecode
+[Method: POST, Route: payroll/payrollperiod_view]
+in APPPATH\Views\payroll_period_view.php on line 111.
+ 1 APPPATH\Views\payroll_period_view.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Ecode', 'C:\\xampp\\htdocs\\happyhr\\app\\Views\\payroll_period_view.php', 111)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhr\\app\\Views\\payroll_period_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_period_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_period_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhr\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(199): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollperiod_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 05:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 05:13:51 --> ErrorException: Undefined property: stdClass::$Ecode
+[Method: POST, Route: payroll/payrollperiod_view]
+in APPPATH\Views\payroll_period_view.php on line 182.
+ 1 APPPATH\Views\payroll_period_view.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Ecode', 'C:\\xampp\\htdocs\\happyhr\\app\\Views\\payroll_period_view.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhr\\app\\Views\\payroll_period_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_period_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_period_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhr\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(199): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollperiod_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 05:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 05:26:09 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+[Method: POST, Route: payroll/payrollperiod_view]
+in APPPATH\Controllers\Payroll.php on line 191.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollperiod_view()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 05:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 05:26:28 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+[Method: POST, Route: payroll/payrollperiod_view]
+in APPPATH\Controllers\Payroll.php on line 191.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollperiod_view()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 05:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 05:26:43 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+[Method: POST, Route: payroll/payrollperiod_view]
+in APPPATH\Controllers\Payroll.php on line 191.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollperiod_view()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 05:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-04 05:36:31 --> ErrorException: Undefined variable $Remarks
+[Method: POST, Route: payroll/payrollperiod_view]
+in APPPATH\Views\payroll_period_view.php on line 100.
+ 1 APPPATH\Views\payroll_period_view.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Remarks', 'C:\\xampp\\htdocs\\happyhr\\app\\Views\\payroll_period_view.php', 100)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhr\\app\\Views\\payroll_period_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_period_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_period_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhr\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(213): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollperiod_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 05:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 05:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-04 06:50:13 --> mysqli_sql_exception: Unknown column 'ps.AmountBilled' in 'field list' in C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id...', 0)
+#1 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id...')
+#2 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id...')
+#3 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhr\app\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+#6 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+#7 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhr\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-04 06:50:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ps.AmountBilled' in 'field list'
+[Method: POST, Route: payroll/employeededuction]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `ps`.`DeductionID`, `ps`.`DeductionName`, `ps`.`AmountBilled`, `ps`.`AmountDeducted`, `ps`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = :pd.PayrollPeriodID:
+AND `pd`.`EmpNo` = :pd.EmpNo:', [...], false)
+ 2 APPPATH\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-04 06:50:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ps.AmountBilled' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `ps`.`DeductionID`, `ps`.`DeductionName`, `ps`.`AmountBilled`, `ps`.`AmountDeducted`, `ps`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `ps`.`DeductionID`, `ps`.`DeductionName`, `ps`.`AmountBilled`, `ps`.`AmountDeducted`, `ps`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `ps`.`DeductionID`, `ps`.`DeductionName`, `ps`.`AmountBilled`, `ps`.`AmountDeducted`, `ps`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = :pd.PayrollPeriodID:
+AND `pd`.`EmpNo` = :pd.EmpNo:', [...], false)
+ 4 APPPATH\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-04 06:50:13 --> [Caused by] mysqli_sql_exception: Unknown column 'ps.AmountBilled' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id`, `ps`.`DeductionID`, `ps`.`DeductionName`, `ps`.`AmountBilled`, `ps`.`AmountDeducted`, `ps`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `ps`.`DeductionID`, `ps`.`DeductionName`, `ps`.`AmountBilled`, `ps`.`AmountDeducted`, `ps`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `ps`.`DeductionID`, `ps`.`DeductionName`, `ps`.`AmountBilled`, `ps`.`AmountDeducted`, `ps`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `ps`.`DeductionID`, `ps`.`DeductionName`, `ps`.`AmountBilled`, `ps`.`AmountDeducted`, `ps`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = :pd.PayrollPeriodID:
+AND `pd`.`EmpNo` = :pd.EmpNo:', [...], false)
+ 5 APPPATH\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 06:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-04 06:51:32 --> mysqli_sql_exception: Unknown column 'pd.DeductionName' in 'field list' in C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ps`.`id...', 0)
+#1 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ps`.`id...')
+#2 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ps`.`id...')
+#3 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ps`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhr\app\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+#6 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+#7 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhr\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-04 06:51:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.DeductionName' in 'field list'
+[Method: POST, Route: payroll/employeededuction]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ps`.`id`, `pd`.`DeductionID`, `pd`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = :pd.PayrollPeriodID:
+AND `pd`.`EmpNo` = :pd.EmpNo:', [...], false)
+ 2 APPPATH\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-04 06:51:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.DeductionName' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ps`.`id`, `pd`.`DeductionID`, `pd`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ps`.`id`, `pd`.`DeductionID`, `pd`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ps`.`id`, `pd`.`DeductionID`, `pd`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = :pd.PayrollPeriodID:
+AND `pd`.`EmpNo` = :pd.EmpNo:', [...], false)
+ 4 APPPATH\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-04 06:51:32 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.DeductionName' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ps`.`id`, `pd`.`DeductionID`, `pd`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ps`.`id`, `pd`.`DeductionID`, `pd`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ps`.`id`, `pd`.`DeductionID`, `pd`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ps`.`id`, `pd`.`DeductionID`, `pd`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = :pd.PayrollPeriodID:
+AND `pd`.`EmpNo` = :pd.EmpNo:', [...], false)
+ 5 APPPATH\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 06:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-04 06:52:48 --> mysqli_sql_exception: Unknown column 'pd.Balance' in 'field list' in C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ps`.`id...', 0)
+#1 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ps`.`id...')
+#2 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ps`.`id...')
+#3 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ps`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhr\app\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+#6 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+#7 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhr\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhr\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-04 06:52:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.Balance' in 'field list'
+[Method: POST, Route: payroll/employeededuction]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ps`.`id`, `pd`.`DeductionID`, `ps`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = :pd.PayrollPeriodID:
+AND `pd`.`EmpNo` = :pd.EmpNo:', [...], false)
+ 2 APPPATH\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-04 06:52:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.Balance' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ps`.`id`, `pd`.`DeductionID`, `ps`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ps`.`id`, `pd`.`DeductionID`, `ps`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ps`.`id`, `pd`.`DeductionID`, `ps`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = :pd.PayrollPeriodID:
+AND `pd`.`EmpNo` = :pd.EmpNo:', [...], false)
+ 4 APPPATH\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-04 06:52:48 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.Balance' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `ps`.`id`, `pd`.`DeductionID`, `ps`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ps`.`id`, `pd`.`DeductionID`, `ps`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ps`.`id`, `pd`.`DeductionID`, `ps`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = \'10\'
+AND `pd`.`EmpNo` = \'10001 data-Name=\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `ps`.`id`, `pd`.`DeductionID`, `ps`.`DeductionName`, `pd`.`AmountBilled`, `pd`.`AmountDeducted`, `pd`.`Balance`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `ps` ON `pd`.`DeductionID` = `ps`.`id`
+WHERE `pd`.`PayrollPeriodID` = :pd.PayrollPeriodID:
+AND `pd`.`EmpNo` = :pd.EmpNo:', [...], false)
+ 5 APPPATH\Controllers\Payroll.php(503): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postEmployeededuction()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-09-04 06:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 06:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 07:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 07:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-04 07:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

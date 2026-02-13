@@ -1,0 +1,766 @@
+DEBUG - 2025-05-29 05:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 05:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-29 06:29:06 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\payroll_session_view.php on line 79.
+ 1 APPPATH\Views\payroll_session_view.php(79): number_format(null, 2)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_session_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_session_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_session_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(248): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollsession_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:29:06 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\payroll_session_view.php on line 79.
+ 1 APPPATH\Views\payroll_session_view.php(79): number_format(null, 2)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_session_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_session_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_session_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(248): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollsession_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-29 06:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:31:13 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\payroll_deduction_setup.php on line 57.
+ 1 APPPATH\Views\payroll_deduction_setup.php(57): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_setup.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_setup', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_setup')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(274): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionsetup()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-29 06:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-29 06:39:07 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\payroll_session_view.php on line 79.
+ 1 APPPATH\Views\payroll_session_view.php(79): number_format(null, 2)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_session_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_session_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_session_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(248): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollsession_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-29 06:39:07 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\payroll_session_view.php on line 79.
+ 1 APPPATH\Views\payroll_session_view.php(79): number_format(null, 2)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_session_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_session_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_session_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(248): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollsession_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-29 06:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 06:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-29 07:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

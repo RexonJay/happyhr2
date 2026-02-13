@@ -1,0 +1,22 @@
+{
+  "short_name": "happyhrappp",
+  "name": "HappyHR aPPP",
+  "description": "Happy HR Application - People First, Positivity, Productivity",
+  "icons": [
+    {
+      "src": "happy-hr-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "happy-hr-icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6"
+}

@@ -1,0 +1,15 @@
+{
+  "background_color": "green",
+  "description": "People First, Positivity, Productivity",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "happy-hr-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "HAPPYHR APPP",
+  "short_name": "HAPPY HR",
+  "start_url": "https://hrmdo.gensantos.gov.ph/assets/addtohomescreen/index.html"
+}

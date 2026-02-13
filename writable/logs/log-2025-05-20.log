@@ -1,0 +1,1647 @@
+DEBUG - 2025-05-20 00:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 00:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 00:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 00:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 00:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 00:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 00:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 00:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:40:29 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 02:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 02:41:42 --> [DEPRECATED] strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\masterdata_employee.php on line 74.
+ 1 APPPATH\Views\masterdata_employee.php(74): strtolower(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(56): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployee()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 02:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-20 02:44:49 --> mysqli_sql_exception: Column 'CreatedRemarks' in field list is ambiguous in C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id...', 0)
+#1 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id...')
+#2 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id...')
+#3 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhrapp\app\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionrequest()
+#6 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+#7 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhrapp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-20 02:44:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'CreatedRemarks' in field list is ambiguous
+[Method: GET, Route: payroll/payrolldeductionrequest]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionrequest()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 02:44:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'CreatedRemarks' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionrequest()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 02:44:49 --> [Caused by] mysqli_sql_exception: Column 'CreatedRemarks' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 02:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-20 02:46:28 --> mysqli_sql_exception: Column 'CreatedRemarks' in field list is ambiguous in C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id...', 0)
+#1 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id...')
+#2 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id...')
+#3 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhrapp\app\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+#6 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhrapp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-20 02:46:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'CreatedRemarks' in field list is ambiguous
+[Method: GET, Route: masterdata/employeerequest]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 02:46:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'CreatedRemarks' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 02:46:28 --> [Caused by] mysqli_sql_exception: Column 'CreatedRemarks' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 02:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 02:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 03:20:31 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\payroll_session_view.php on line 79.
+ 1 APPPATH\Views\payroll_session_view.php(79): number_format(null, 2)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_session_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_session_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_session_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(248): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollsession_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 03:20:31 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\payroll_session_view.php on line 79.
+ 1 APPPATH\Views\payroll_session_view.php(79): number_format(null, 2)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_session_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_session_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_session_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(248): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollsession_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 03:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-20 03:20:45 --> mysqli_sql_exception: Unknown column 'pd.ApprovedBy' in 'field list' in C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id...', 0)
+#1 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id...')
+#2 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id...')
+#3 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhrapp\app\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionrequest()
+#6 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+#7 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhrapp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-20 03:20:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.ApprovedBy' in 'field list'
+[Method: GET, Route: payroll/payrolldeductionrequest]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionrequest()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 03:20:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.ApprovedBy' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionrequest()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 03:20:45 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.ApprovedBy' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrolldeductionrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 03:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 03:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-20 03:23:41 --> mysqli_sql_exception: Unknown column 'pd.ApprovedBy' in 'field list' in C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id...', 0)
+#1 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id...')
+#2 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id...')
+#3 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhrapp\app\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+#6 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+#7 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhrapp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-20 03:23:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.ApprovedBy' in 'field list'
+[Method: GET, Route: payroll/payrollrequest]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 03:23:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.ApprovedBy' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 03:23:41 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.ApprovedBy' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 03:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-20 03:25:02 --> mysqli_sql_exception: Unknown column 'AmountDeducted' in 'field list' in C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id...', 0)
+#1 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id...')
+#2 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id...')
+#3 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhrapp\app\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+#6 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+#7 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhrapp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-20 03:25:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AmountDeducted' in 'field list'
+[Method: GET, Route: payroll/payrollrequest]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 03:25:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'AmountDeducted' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 03:25:02 --> [Caused by] mysqli_sql_exception: Unknown column 'AmountDeducted' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 05:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-20 05:02:33 --> mysqli_sql_exception: Unknown column 'pd.CreatedBy' in 'field list' in C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id...', 0)
+#1 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id...')
+#2 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id...')
+#3 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhrapp\app\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+#6 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+#7 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhrapp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-20 05:02:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.CreatedBy' in 'field list'
+[Method: GET, Route: payroll/payrollrequest]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountFrom`, `AmountTo`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 05:02:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.CreatedBy' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountFrom`, `AmountTo`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountFrom`, `AmountTo`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountFrom`, `AmountTo`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 05:02:33 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.CreatedBy' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountFrom`, `AmountTo`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountFrom`, `AmountTo`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountFrom`, `AmountTo`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountFrom`, `AmountTo`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction_request` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Controllers\Payroll.php(294): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 05:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-20 05:03:17 --> ErrorException: Undefined property: stdClass::$AmountDeducted
+[Method: GET, Route: payroll/payrollrequest]
+in APPPATH\Views\payroll_deduction_request.php on line 52.
+ 1 APPPATH\Views\payroll_deduction_request.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$AmountDeducted', 'C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_request.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_request.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_request', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_request')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(303): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 05:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-20 05:04:26 --> ErrorException: Undefined property: stdClass::$CreatedBy
+[Method: GET, Route: payroll/payrollrequest]
+in APPPATH\Views\payroll_deduction_request.php on line 55.
+ 1 APPPATH\Views\payroll_deduction_request.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreatedBy', 'C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_request.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_deduction_request.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_deduction_request', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_deduction_request')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(303): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->getPayrollrequest()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 05:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-20 05:05:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\payroll_session_view.php on line 79.
+ 1 APPPATH\Views\payroll_session_view.php(79): number_format(null, 2)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_session_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_session_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_session_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(248): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollsession_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-05-20 05:05:01 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\payroll_session_view.php on line 79.
+ 1 APPPATH\Views\payroll_session_view.php(79): number_format(null, 2)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\payroll_session_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('payroll_session_view', [], true)
+ 5 APPPATH\Views\main.php(224): view('payroll_session_view')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Payroll.php(248): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payroll->postPayrollsession_view()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 05:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-20 05:05:27 --> mysqli_sql_exception: Unknown column 'pd.ApprovedBy' in 'field list' in C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id...', 0)
+#1 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id...')
+#2 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id...')
+#3 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhrapp\app\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+#6 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhrapp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-20 05:05:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.ApprovedBy' in 'field list'
+[Method: GET, Route: masterdata/employeerequest]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 05:05:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.ApprovedBy' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 05:05:27 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.ApprovedBy' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `DeductionName`, `AmountDeducted`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`CreatedBy`, `pd`.`CreatedWhen`, `pd`.`CreatedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`
+FROM `tblpayrolldeduction` `pd`
+INNER JOIN `tblpayrolldeductionsetup` `pds` ON `pd`.`DeductionID` = `pds`.`id`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 05:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-20 05:11:15 --> ErrorException: Undefined property: stdClass::$EmployeeInfoType
+[Method: GET, Route: masterdata/employeerequest]
+in APPPATH\Views\masterdata_employee_request.php on line 51.
+ 1 APPPATH\Views\masterdata_employee_request.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$EmployeeInfoType', 'C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee_request.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee_request.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee_request', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee_request')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(86): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 05:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-20 05:11:43 --> ErrorException: Undefined property: stdClass::$CreatedBy
+[Method: GET, Route: masterdata/employeerequest]
+in APPPATH\Views\masterdata_employee_request.php on line 54.
+ 1 APPPATH\Views\masterdata_employee_request.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CreatedBy', 'C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee_request.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\masterdata_employee_request.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('masterdata_employee_request', [], true)
+ 5 APPPATH\Views\main.php(224): view('masterdata_employee_request')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\happyhrapp\\app\\Views\\main.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():221}()
+ 8 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('main', [], true)
+ 9 APPPATH\Controllers\Masterdata.php(86): view('main', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 05:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-20 05:16:07 --> mysqli_sql_exception: Unknown column 'DeductionName' in 'where clause' in C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id...', 0)
+#1 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id...')
+#2 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id...')
+#3 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id...', Array, false)
+#4 C:\xampp\htdocs\happyhrapp\app\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+#6 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+#7 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\happyhrapp\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\happyhrapp\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-20 05:16:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DeductionName' in 'where clause'
+[Method: GET, Route: masterdata/employeerequest]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`RequestedBy`, `pd`.`RequestedWhen`, `pd`.`RequestedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`, `pd`.`EmployeeInfoType`
+FROM `tblpayrollchange_request` `pd`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND `pd`.`EmployeeInfoType` <> \'\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 2 APPPATH\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 05:16:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DeductionName' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`RequestedBy`, `pd`.`RequestedWhen`, `pd`.`RequestedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`, `pd`.`EmployeeInfoType`
+FROM `tblpayrollchange_request` `pd`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND `pd`.`EmployeeInfoType` <> \'\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`RequestedBy`, `pd`.`RequestedWhen`, `pd`.`RequestedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`, `pd`.`EmployeeInfoType`
+FROM `tblpayrollchange_request` `pd`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND `pd`.`EmployeeInfoType` <> \'\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`RequestedBy`, `pd`.`RequestedWhen`, `pd`.`RequestedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`, `pd`.`EmployeeInfoType`
+FROM `tblpayrollchange_request` `pd`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND `pd`.`EmployeeInfoType` <> \'\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 4 APPPATH\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-20 05:16:07 --> [Caused by] mysqli_sql_exception: Unknown column 'DeductionName' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`RequestedBy`, `pd`.`RequestedWhen`, `pd`.`RequestedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`, `pd`.`EmployeeInfoType`
+FROM `tblpayrollchange_request` `pd`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND `pd`.`EmployeeInfoType` <> \'\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pd`.`id`, `EmpNo`, `Name`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`RequestedBy`, `pd`.`RequestedWhen`, `pd`.`RequestedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`, `pd`.`EmployeeInfoType`
+FROM `tblpayrollchange_request` `pd`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND `pd`.`EmployeeInfoType` <> \'\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pd`.`id`, `EmpNo`, `Name`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`RequestedBy`, `pd`.`RequestedWhen`, `pd`.`RequestedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`, `pd`.`EmployeeInfoType`
+FROM `tblpayrollchange_request` `pd`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = \'1\'
+AND `pd`.`EmployeeInfoType` <> \'\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE \'%%\' ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `pd`.`id`, `EmpNo`, `Name`, `ChangeFrom`, `ChangeTo`, `pd`.`OfficeCode`, `o`.`ShortName`, `pd`.`RequestedBy`, `pd`.`RequestedWhen`, `pd`.`RequestedRemarks`, `pd`.`ApprovedBy`, `pd`.`ApprovedWhen`, `pd`.`RequestType`, `pd`.`RequestStatus`, `pd`.`EmployeeInfoType`
+FROM `tblpayrollchange_request` `pd`
+INNER JOIN `tblemployee` `e` ON `e`.`ecode` = `pd`.`EmpNo`
+INNER JOIN `office` `o` ON `o`.`OfficeCode` = `pd`.`OfficeCode`
+WHERE IFNULL(pd.IsActive, 1) = :IFNULL(pd.IsActive, 1):
+AND `pd`.`EmployeeInfoType` <> \'\'
+AND  CONCAT(EmpNo, Name, DeductionName) LIKE :CONCAT(EmpNo, Name, DeductionName): ESCAPE \'!\'
+ORDER BY `pd`.`id` DESC
+ LIMIT 100', [...], false)
+ 5 APPPATH\Controllers\Masterdata.php(77): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Masterdata->getEmployeerequest()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Masterdata))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-20 05:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:27:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 05:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-20 07:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
