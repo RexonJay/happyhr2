@@ -1,0 +1,1 @@
+<?= '<img src="data:image/jpeg;base64,'.base64_encode($content).'"  alt="'.$ecode.'" width="370" height="270"/>' ?>

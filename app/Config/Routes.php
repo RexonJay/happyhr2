@@ -11,6 +11,7 @@ use CodeIgniter\Router\RouteCollection;
 // $routes->get('/', function() {
 //     return redirect()->to('/login');
 // });
+
 $routes->get('/', function () {
     return redirect()->to(site_url('login'));
 });
